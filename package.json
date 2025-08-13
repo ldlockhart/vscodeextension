@@ -1,0 +1,41 @@
+{
+  "name": "beefree-sdk-snippets",
+  "displayName": "Beefree SDK Snippets",
+  "description": "A collection of useful code snippets for implementing the Beefree SDK for email, page, and pop-up builders.",
+  "version": "0.1.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "beefree",
+    "beefree sdk",
+    "email builder",
+    "page builder",
+    "snippets"
+  ],
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-github/beefree-sdk-snippets.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
