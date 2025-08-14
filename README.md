@@ -1,4 +1,4 @@
-Beefree SDK Snippets
+#Beefree SDK Snippets
 Speed up your Beefree SDK integration with this collection of handy code snippets for Visual Studio Code.
 
 This extension provides snippets for common tasks, including the secure server-side authentication flow, client-side initialization, configuration, and more, helping you get up and running with the Beefree email, page, and pop-up builders faster.
