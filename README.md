@@ -13,10 +13,10 @@ Thanks for helping me test out this new VS Code extension for Beefree SDK snippe
 
 
 2.  **Install Dependencies:**
-    Navigate into the project folder and install the single dependency needed for packaging (we might need it later).
+    Navigate into the project folder and install the required dependencies as shown
 
     cd beefree-sdk-snippets
-    npm install
+    npm install express joi express-rate-limit node-fetch
 
 
 3.  **Open in VS Code:**
