@@ -43,10 +43,12 @@ Thanks for helping me test out this new VS Code extension for Beefree SDK snippe
 | Prefix          | Description                                         | Language(s) |
 | --------------- | --------------------------------------------------- | ----------- |
 | `b-init-server` | Node.js/Express server-side authentication endpoint | JS, TS      |
-| `b-init-client` | Client-side SDK initialization flow                 | JS, TS      |
-| `b-config`      | Standard `beeConfig` object                         | JS, TS      |
+| `b-init-client` | Client-side SDK initialization flow                  | JS, TS      |
+| `b-config`      | Standard `beeConfig` object                           | JS, TS      |
+| `b-config-multitenant` | Multi-tenant config                            | JS, TS      |
 | `b-save`        | `onSave` callback function                          | JS, TS      |
 | `b-load`        | `bee.load()` method                                 | JS, TS      |
+| `b-load-db`     | Load saved template from backend                    | JS, TS      |
 | `b-container`   | HTML `div` container for the editor                 | HTML        |
 
 ---
