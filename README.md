@@ -1,109 +1,48 @@
-Hey folks,
+Beefree SDK Snippets
+Speed up your Beefree SDK integration with this collection of handy code snippets for Visual Studio Code.
 
-Thanks for helping me test out this new VS Code extension for Beefree SDK snippets. This guide will get you up and running locally in a couple of minutes.
+This extension provides snippets for common tasks, including the secure server-side authentication flow, client-side initialization, configuration, and more, helping you get up and running with the Beefree email, page, and pop-up builders faster.
 
----
+<> Lawrence to insert demo gif here
 
-## Quick Start (Running Locally)
+## Features
+Time-Saving Snippets: Quickly scaffold common architectural patterns.
 
-1.  **Clone the Repo:**
-    Clone this repository to your local machine.
+Best Practices Included: Implements the secure, server-side authentication flow by default.
 
-    git clone https://github.com/ldlockhart/vscodeextension.git
+Multi-Language Support: Works out-of-the-box in your JavaScript, TypeScript, and HTML files.
 
-
-2.  **Install Dependencies:**
-    Navigate into the project folder and install the required dependencies as shown
-
-    cd beefree-sdk-snippets
-    npm install express joi express-rate-limit node-fetch
-
-
-3.  **Open in VS Code:**
-    Open the entire project folder in Visual Studio Code.
-    code .
-
-
-4.  **Run the Extension:**
-    Press **`F5`** (`Run > Start Debugging`). This will compile the extension and launch a new **"Extension Development Host"** window. This new window has the extension installed and ready for testing.
-
----
-
-## How to Test the Snippets
-
-1.  In the **new** "Extension Development Host" window, create a test file (e.g., `test.js` or `server.js`).
-2.  Start typing one of the prefixes from the table below (like `b-init-server`).
-3.  You should see the snippet appear in the auto-completion list. Press Enter or Tab to insert it.
-4.  Check if the code looks right, the indentation is correct, and you can tab through any placeholders.
-
----
+Easy to Use: Just type the b- prefix and explore the available snippets.
 
 ## Available Snippets
+Simply start typing one of the prefixes below in a relevant file to see the available snippets.
 
-| Prefix          | Description                                         | Language(s) |
+| Prefix           | Description                                         | Language(s) |
 | --------------- | --------------------------------------------------- | ----------- |
 | `b-init-server` | Node.js/Express server-side authentication endpoint | JS, TS      |
 | `b-init-client` | Client-side SDK initialization flow                  | JS, TS      |
-| `b-config`      | Standard `beeConfig` object                           | JS, TS      |
+| `b-config`       | Standard `beeConfig` object                           | JS, TS      |
 | `b-config-multitenant` | Multi-tenant config                            | JS, TS      |
 | `b-save`        | `onSave` callback function                          | JS, TS      |
 | `b-load`        | `bee.load()` method                                 | JS, TS      |
 | `b-load-db`     | Load saved template from backend                    | JS, TS      |
 | `b-container`   | HTML `div` container for the editor                 | HTML        |
 
----
+Export to Sheets
+## Installation
+Open the Extensions sidebar in VS Code (Ctrl+Shift+X or Cmd+Shift+X).
 
-Let me know what you think!
--------------------------------------------------
+Search for Beefree SDK Snippets.
 
---- below is rough draft for final publish. WIP ---
-Beefree SDK Snippets
-Speed up your Beefree SDK integration with this collection of handy code snippets for Visual Studio Code.
+Click Install.
 
-This extension provides snippets for common tasks, including the secure server-side authentication flow, client-side initialization, configuration, and more, helping you get up and running with the Beefree email, page, and pop-up builders faster.
+or
 
-Features
-This extension provides snippets for JavaScript, TypeScript, and HTML.
+Launch VS Code Quick Open (Ctrl+P or Cmd+P), paste the following command, and press enter:
+ext install your-publisher-name.beefree-sdk-snippets
+(Remember to replace your-publisher-name with your actual publisher ID before publishing)
 
-Available Snippets
-Prefix
+## Contributing
+Found a bug or have a suggestion for a new snippet? We'd love your help! Feel free to open an issue or submit a pull request on our [GitHub Repository](https://github.com/ldlockhart/vscodeextension).
 
-Description
-
-b-init-server
-
-Boilerplate for a secure Node.js/Express auth endpoint.
-
-b-init-client
-
-Full client-side initialization flow.
-
-b-config
-
-A standard configuration object for the SDK.
-
-b-save
-
-The onSave callback function.
-
-b-load
-
-The bee.load() method to load a new template.
-
-b-container
-
-The HTML div container for the editor.
-
-How to Use
-Simply start typing one of the prefixes (like b-init-server) in a relevant file (.js, .ts, .html) and press Enter or Tab to insert the snippet.
-
-Installation
-Install through the Visual Studio Code Marketplace.
-
-Launch VS Code Quick Open (Ctrl+P), paste ext install your-publisher-name.beefree-sdk-snippets, and press enter.
-
-Contributing
-Found a bug or have a suggestion? Feel free to open an issue or submit a pull request on our ** Github Repository **
-
-Full Beefree SDK docuentation can be found here: https://docs.beefree.io/beefree-sdk
-Enjoy!
+Full Beefree SDK documentation can be found [here](https://docs.beefree.io/beefree-sdk). Enjoy!
